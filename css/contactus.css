@@ -1,0 +1,221 @@
+@import "https://fonts.googleapis.com/css?family=Lily+Script+One";
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contact_us_heading {
+    font-size: 3rem;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-top: 1rem;
+    font-weight: 700;
+    color: #1a2e47;
+}
+
+.card {
+    text-align: center;
+    margin-top: 2rem;
+    border-radius: 2rem;
+    background-color: #1a2e47;
+    padding: 4rem 1rem 4rem 1rem;
+    margin-bottom: 3rem;
+    color: white;
+}
+
+hr {
+    border: 1px solid white;
+    width: 18rem;
+    opacity: 0.3;
+}
+
+hr.short {
+    border: 1px solid white;
+    width: 10rem;
+    opacity: 0.3;
+}
+
+.contact_links {
+    color: white;
+}
+
+.contact_links:hover {
+    color: yellow;
+}
+
+.who_design_link {
+    color: white;
+}
+
+.who_design_link:hover {
+    color: yellow;
+}
+
+.fa-map-marked-alt,
+.fa-clock,
+.fa-envelope-open-text,
+.fa-phone-square-alt {
+    color: yellow;
+    opacity: 0.8;
+}
+
+.address {
+    padding: 1rem 0rem 1rem 0rem;
+}
+
+.working {
+    padding: 1rem 0rem 1rem 0rem;
+}
+
+.email {
+    padding: 1rem 0rem 1rem 0rem;
+}
+
+.phone {
+    padding: 1rem 0rem 1rem 0rem;
+}
+
+footer {
+    padding: 1.5rem 4rem 1rem 4rem;
+    letter-spacing: 1px;
+}
+
+.fumn_logo {
+    width: 50px;
+}
+
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>"MEDIA QUERIES"<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+
+/* >>>>>>>>>>>>>>>>>>>>Large Devices */
+
+@media(min-width:1200px) {}
+
+
+/* >>>>>>>>>>>>>>>>>>>>Medium Devices */
+
+@media(min-width:992px) and (max-width:1199px) {}
+
+
+/* >>>>>>>>>>>>>>>>>>>>Small Devices */
+
+@media(min-width:768px) and (max-width:991px) {}
+
+
+/* >>>>>>>>>>>>>>>>>>>>Extra Small Devices */
+
+@media(min-width:576px) and (max-width:767px) {}
+
+
+/* >>>>>>>>>>>>>>>>>>>>Extra-Extra Small Devices */
+
+@media(min-width:420px) and (max-width:480px) {
+    .contact_us_heading {
+        font-size: 1.5rem;
+        margin-top: 1rem;
+        color: #1a2e47;
+    }
+    .card {
+        border-radius: 1rem;
+        padding: 1.5rem 0.5rem 1rem 0.5rem;
+        /* margin-bottom: 5rem !important; */
+    }
+    hr {
+        border: 1px solid white;
+        width: 10rem;
+        opacity: 0.3;
+    }
+    .last_hr {
+        margin-bottom: 1.5rem;
+    }
+    hr.short {
+        border: 1px solid white;
+        width: 6rem;
+        opacity: 0.3;
+    }
+    .copy_right,
+    .who_design_link {
+        font-size: 10px;
+    }
+    footer {
+        padding: 1rem 2rem 1rem 2rem;
+        letter-spacing: 0.5px;
+        /* position: fixed; */
+        /* width: 100%; */
+        /* bottom: 0px; */
+        /* margin-top: 0rem; */
+    }
+    .address_heading,
+    .working_heading,
+    .email_heading,
+    .phone_heading {
+        font-size: 17px;
+    }
+    .address_content,
+    .working_content,
+    .email_content,
+    .phone_content {
+        font-size: 14px;
+    }
+    .left-content .postsloop,
+    .left-content .single-posst {
+        margin: 0 !important;
+    }
+    .fumn_logo {
+        width: 30px;
+    }
+}
+
+@media(max-width:419px) {
+    .contact_us_heading {
+        font-size: 1.3rem;
+        margin-top: 1rem;
+        color: #1a2e47;
+    }
+    .card {
+        border-radius: 1rem;
+        padding: 1.5rem 0.7rem 1rem 0.7rem;
+    }
+    hr {
+        border: 1px solid white;
+        width: 9rem;
+        opacity: 0.3;
+    }
+    .last_hr {
+        margin-bottom: 1rem;
+    }
+    hr.short {
+        border: 1px solid white;
+        width: 5rem;
+        opacity: 0.3;
+    }
+    .copy_right,
+    .who_design_link {
+        font-size: 8px;
+    }
+    footer {
+        padding: 0.5rem 1rem 0.5rem 1rem;
+        letter-spacing: 0.5px;
+    }
+    .address_heading,
+    .working_heading,
+    .email_heading,
+    .phone_heading {
+        font-size: 15px;
+    }
+    .address_content,
+    .working_content,
+    .email_content,
+    .phone_content {
+        font-size: 12px;
+    }
+    .left-content .postsloop,
+    .left-content .single-posst {
+        margin: 0 !important;
+    }
+    .fumn_logo {
+        width: 20px;
+    }
+}
