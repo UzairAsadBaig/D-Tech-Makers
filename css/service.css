@@ -13,12 +13,12 @@
   font-weight: 700;
 }
 .high-heading {
-  color: white;
-  background-color: black;
+  color: #1a2e47;
+  /* background-color: black; */
 }
 .l-heading {
-  background-color: black;
-  color: white;
+  /* background-color: black; */
+  color: #1a2e47;
   width: fit-content;
   padding: 4px 8px;
   border-radius: 5px;
