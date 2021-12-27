@@ -1,3 +1,39 @@
+/******************** Navbar ********************/
+.logo {
+    width: 50px;
+    height: 40px;
+}
+
+.navbar .container {
+    padding-right: 0 !important;
+}
+
+.company_name {
+    /* color:rgb(43, 42, 42); */
+    color: #1a2e47;
+    margin-left: 10px;
+    transition: all 0.3s;
+}
+
+.company_name:hover {
+    color: rgba(243, 236, 25, 1);
+}
+
+.nav-link {
+    padding-left: 25px !important;
+    padding-right: 25px !important;
+    /* color: rgb(43, 42, 42); */
+    color: #1a2e47;
+    font-weight: 500;
+}
+
+.nav-link:hover {
+    background-color: #1a2e47;
+    border-radius: 25px;
+    color: white;
+    transition: all 0.5s;
+}
+
 @import "https://fonts.googleapis.com/css?family=Lily+Script+One";
 * {
     margin: 0;
@@ -9,7 +45,7 @@
     font-size: 3rem;
     letter-spacing: 1px;
     text-align: center;
-    margin-top: 1rem;
+    margin-top: 5rem;
     font-weight: 700;
     color: #1a2e47;
 }
@@ -142,10 +178,6 @@ footer {
     footer {
         padding: 1rem 2rem 1rem 2rem;
         letter-spacing: 0.5px;
-        /* position: fixed; */
-        /* width: 100%; */
-        /* bottom: 0px; */
-        /* margin-top: 0rem; */
     }
     .address_heading,
     .working_heading,

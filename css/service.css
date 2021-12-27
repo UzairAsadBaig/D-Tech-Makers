@@ -1,3 +1,39 @@
+/******************** Navbar ********************/
+.logo {
+  width: 50px;
+  height: 40px;
+}
+
+.navbar .container {
+  padding-right: 0 !important;
+}
+
+.company_name {
+  /* color:rgb(43, 42, 42); */
+  color: #1a2e47;
+  margin-left: 10px;
+  transition: all 0.3s;
+}
+
+.company_name:hover {
+  color: rgba(243, 236, 25, 1);
+}
+
+.nav-link {
+  padding-left: 25px !important;
+  padding-right: 25px !important;
+  /* color: rgb(43, 42, 42); */
+  color: #1a2e47;
+  font-weight: 500;
+}
+
+.nav-link:hover {
+  background-color: #1a2e47;
+  border-radius: 25px;
+  color: white;
+  transition: all 0.5s;
+}
+
 @import "https://fonts.googleapis.com/css?family=Lily+Script+One";
 * {
   margin: 0;
@@ -15,6 +51,7 @@
 .high-heading {
   color: #1a2e47;
   font-size: 35px;
+  padding-top: 3rem !important;
   /* background-color: black; */
 }
 .l-heading {
@@ -36,12 +73,6 @@ html {
   background: linear-gradient(#d5d5d5, #ffffff);
   height: 100%;
 }
-
-body {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
 .center-cards {
   justify-content: center;
 }
@@ -56,6 +87,7 @@ body {
   padding-bottom: 5rem;
   margin: 16px;
   width: 280px;
+  text-align: center;
 }
 .card:hover {
   border-top: 8px solid #7fc146;
@@ -160,6 +192,14 @@ li:before {
 .contact_us .btn:hover {
   background-color: #53ad03;
 }
+footer {
+  padding: 1.5rem 4rem 1rem 4rem;
+  letter-spacing: 1px;
+}
+
+.fumn_logo {
+  width: 50px;
+}
 /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>"MEDIA QUERIES"<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
 
 /* >>>>>>>>>>>>>>>>>>>>Extra-Extra Small Devices */
@@ -169,5 +209,37 @@ li:before {
   }
   .high-heading {
     font-size: 22px;
+  }
+}
+
+@media(min-width:420px) and (max-width:480px) {
+  .fumn_logo {
+    width: 30px;
+  }
+
+  footer {
+    padding: 1rem 2rem 1rem 2rem;
+    letter-spacing: 0.5px;
+  }
+
+  .copy_right,
+  .who_design_link {
+    font-size: 10px;
+  }
+}
+
+@media(max-width:419px) {
+  footer {
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    letter-spacing: 0.5px;
+  }
+
+  .fumn_logo {
+    width: 20px;
+  }
+
+  .copy_right,
+  .who_design_link {
+    font-size: 8px;
   }
 }

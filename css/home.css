@@ -1,0 +1,283 @@
+body {
+  overflow-x: hidden;
+}
+
+/******************** Navbar ********************/
+.logo {
+  width: 50px;
+  height: 40px;
+}
+
+.navbar .container {
+  padding-right: 0 !important;
+}
+
+.company_name {
+  /* color:rgb(43, 42, 42); */
+  color: #1a2e47;
+  margin-left: 10px;
+  transition: all 0.3s;
+}
+
+.company_name:hover {
+  color: rgba(243, 236, 25, 1);
+}
+
+.nav-link {
+  padding-left: 25px !important;
+  padding-right: 25px !important;
+  /* color: rgb(43, 42, 42); */
+  color: #1a2e47;
+  font-weight: 500;
+}
+
+.nav-link:hover {
+  background-color: #1a2e47;
+  border-radius: 25px;
+  color: white;
+  transition: all 0.5s;
+}
+
+
+
+
+/************** Main Content ****************/
+.heading-underline {
+  width: 5rem;
+  height: 0.2rem;
+  background-color: #1a2e47;
+  margin: 0 auto 0.9rem;
+
+}
+
+.main_heading {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.main_para {
+  font-size: 16px;
+  text-align: center;
+  opacity: 0.9;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.landing_content_sec {
+  position: absolute;
+  top: 40%;
+  left: 7%;
+}
+
+/*--- Fix for Fixed Navbar jumping on scroll --*/
+.fixed-top {
+  -webkit-backface-visibility: hidden;
+
+}
+
+/*--- Fixed Landing Page Section --*/
+.landing {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: table;
+  z-index: -1;
+}
+
+.home-wrap {
+  clip: rect(0, auto, auto, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.home-inner {
+  position: fixed;
+  display: table;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  will-change: transform;
+}
+
+.home-inner {
+  background-image: url('../img/landing.jpg');
+}
+
+
+
+.contact_center_sec {
+  margin-top: 5rem;
+}
+
+
+.main_sec_heading {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #1a2e47;
+}
+
+.main_sec_sub_heading {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #1a2e47;
+
+}
+
+.main_sec_para {
+  font-size: 18px;
+  opacity: 0.6;
+  margin-top: 20px;
+}
+
+.ender {
+  margin-top: 5rem;
+  margin-bottom: 4rem;
+
+}
+
+.sub_headings {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #1a2e47;
+}
+
+.paragraphs {
+  font-size: 14px;
+}
+
+.card_img {
+  height: 152px;
+}
+
+.card_para {
+  font-size: 12px !important;
+}
+
+
+.partner_img {
+  width: 80px;
+}
+
+.jumbotron {
+  background-color: #1a2e47 !important;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.carousel-caption h5 {
+  font-size: 4rem;
+  font-weight: 700;
+  text-shadow: 2px 2px 4px #000000;
+  /* margin-bottom: 20rem; */
+}
+
+.carousel-caption p {
+  margin-bottom: 22rem;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.carousel img {
+  opacity: 0.7;
+}
+
+
+
+footer {
+  padding: 1.5rem 4rem 1rem 4rem;
+  letter-spacing: 1px;
+}
+
+.fumn_logo {
+  width: 50px;
+}
+
+
+
+
+
+
+
+/* >>>>>>>>>>>>>>>>>>>>Small Devices */
+@media(min-width:340px) and (max-width:600px) {
+  .landing {
+    position: relative;
+    width: 100%;
+
+  }
+
+  .main_heading {
+    font-size: 2.2rem;
+    font-weight: 700;
+  }
+
+  .main_para {
+    font-size: 13px;
+
+  }
+
+  .landing_content_sec {
+    position: absolute;
+    top: 30%;
+    left: 0%;
+  }
+
+
+  .main_sec_heading {
+    font-size: 2rem;
+  }
+
+  footer {
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    letter-spacing: 0.5px;
+  }
+
+  .fumn_logo {
+    width: 20px;
+  }
+}
+
+
+
+
+@media(min-width:420px) and (max-width:480px) {
+  .fumn_logo {
+    width: 30px;
+  }
+
+  footer {
+    padding: 1rem 2rem 1rem 2rem;
+    letter-spacing: 0.5px;
+  }
+
+  .copy_right,
+  .who_design_link {
+    font-size: 10px;
+  }
+}
+
+@media(max-width:419px) {
+  footer {
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    letter-spacing: 0.5px;
+  }
+
+  .fumn_logo {
+    width: 20px;
+  }
+
+  .copy_right,
+  .who_design_link {
+    font-size: 8px;
+  }
+}
