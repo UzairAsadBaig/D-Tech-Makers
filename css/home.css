@@ -38,6 +38,86 @@ body {
   transition: all 0.5s;
 }
 
+.footer_icon {
+  width: 60px;
+}
+
+.column {
+  margin-top: 4rem;
+}
+
+#social {
+  margin-top: 1.6rem;
+}
+
+#social .svg-inline--fa {
+  margin-right: 1.2rem;
+  font-size: 1.3rem;
+}
+
+#social .svg-inline--fa.fa-youtube:hover {
+  color: #ff0000;
+}
+
+#social .svg-inline--fa.fa-instagram:hover {
+  color: #c13584;
+}
+
+#social .svg-inline--fa.fa-facebook:hover {
+  color: #4267b2;
+}
+
+#social .svg-inline--fa.fa-twitter:hover {
+  color: #1da1f2;
+}
+
+.footer_text {
+  margin-top: 1.6rem;
+  margin-bottom: 1rem;
+  font-size: 18px;
+  word-spacing: 0.2rem;
+}
+
+.lines {
+  border: 0.5px solid rgb(223, 215, 215);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer_links,
+.footer_simple_links {
+  display: block;
+  margin-top: 1rem;
+}
+
+.footer_simple_links:hover {
+  cursor: default;
+}
+
+.footer_links:hover {
+  color: rgba(243, 236, 25, 1);
+}
+
+.fumn_logo {
+  width: 80px;
+  margin-left: 10px;
+}
+
+.copy_rights {
+  font-size: 12px;
+}
+
+footer .container-fluid {
+  padding-bottom: 4.5rem;
+}
+
+#social .svg-inline--fa,
+.footer_text,
+.footer_links,
+.footer_simple_links,
+.footer_simple_links:hover {
+  color: rgb(223, 215, 215);
+}
 
 
 
@@ -185,6 +265,7 @@ body {
 .carousel-caption p {
   margin-bottom: 22rem;
   text-shadow: 2px 2px 4px #000000;
+  font-size: 1.6rem;
 }
 
 .carousel img {
@@ -243,7 +324,7 @@ footer {
   }
 
   .fumn_logo {
-    width: 20px;
+    width: 50px;
   }
 }
 
@@ -264,6 +345,9 @@ footer {
   .who_design_link {
     font-size: 10px;
   }
+  .fumn_logo {
+    width: 50px;
+  }
 }
 
 @media(max-width:419px) {
@@ -279,5 +363,8 @@ footer {
   .copy_right,
   .who_design_link {
     font-size: 8px;
+  }
+  .fumn_logo {
+    width: 50px;
   }
 }
